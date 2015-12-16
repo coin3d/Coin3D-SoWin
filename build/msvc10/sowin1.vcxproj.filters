@@ -1,0 +1,805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{269cd022-55dc-4cfe-9b11-9bc616562fc3}</UniqueIdentifier>
+      <Extensions>;txt</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{e7c37c41-9fb8-4b65-8776-bc190d389af2}</UniqueIdentifier>
+      <Extensions>in</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5607399e-cc3f-43d3-bf98-a1e663cec1eb}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Win/devices sources">
+      <UniqueIdentifier>{4eca48cc-6978-44bb-9a02-77d7ece03b2d}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Win/editors sources">
+      <UniqueIdentifier>{6850223b-611c-4de3-b9e9-c8c97d2bfd9b}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Win/engines sources">
+      <UniqueIdentifier>{c0a10598-5a5d-4bf1-bcdd-d8aa7a5033ff}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Win/nodes sources">
+      <UniqueIdentifier>{a835a85b-f077-4099-b71a-324f3682f4f4}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Win/viewers sources">
+      <UniqueIdentifier>{0b5e17ae-20ef-4f2b-918e-0cf8c7fd3a2b}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Win/widgets sources">
+      <UniqueIdentifier>{4a1bca3d-4284-4efd-9487-f93a6d4a7066}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Inventor/Win sources">
+      <UniqueIdentifier>{c14a6931-1d7f-4927-b2f7-e8c218b03c2e}</UniqueIdentifier>
+      <Extensions>c;cpp;ic;icc;h</Extensions>
+    </Filter>
+    <Filter Include="Public Headers">
+      <UniqueIdentifier>{ac2e70b0-9140-4a20-b823-d30beaa7729e}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Public Headers\Inventor%255cWin%255cdevices headers">
+      <UniqueIdentifier>{3400d645-1988-4053-9ca8-fe989a4c2737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers\Inventor%255cWin%255ceditors headers">
+      <UniqueIdentifier>{d9af1578-da97-400e-8ef7-22c3f15614c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers\Inventor%255cWin%255cnodes headers">
+      <UniqueIdentifier>{3daa1bda-7142-4308-b874-40d665c00beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers\Inventor%255cWin%255cviewers%255c..%255cwidgets headers">
+      <UniqueIdentifier>{363d3d11-3ee1-4a7e-8a73-7b3aa028887a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers\Inventor%255cWin%255cviewers headers">
+      <UniqueIdentifier>{7e05606d-2b1d-4e84-acc8-b7e077103c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers\Inventor%255cWin%255cwidgets headers">
+      <UniqueIdentifier>{e4714f11-4aff-468b-aea5-b9132353d688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers\Inventor%255cWin headers">
+      <UniqueIdentifier>{2e04b840-50d3-4100-9e29-72c81926a7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private Headers">
+      <UniqueIdentifier>{1cc99900-ba14-426d-9690-f843a5b763a0}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Private Headers\Win local includes">
+      <UniqueIdentifier>{22f6da0c-73a0-46cf-bb0c-903de78d9d07}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Private Headers\devices local includes">
+      <UniqueIdentifier>{68fe5094-dc0c-47a8-bb01-4ed238e7075d}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Private Headers\engines local includes">
+      <UniqueIdentifier>{6826f9e5-38aa-4e5f-a31a-27c236a4e1bb}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Private Headers\nodes local includes">
+      <UniqueIdentifier>{2bcf9b93-db7a-4076-88a4-001ca54a6ed2}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Private Headers\viewers local includes">
+      <UniqueIdentifier>{5f92b7f5-69c2-4862-9ebf-9bd0d7adbf60}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Private Headers\src local includes">
+      <UniqueIdentifier>{c10cc881-9909-4db4-983b-0d3abf08e3e5}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+    <Filter Include="Private Headers\widgets local includes">
+      <UniqueIdentifier>{44b3bd54-c9d9-4a28-b971-a36e8131f443}</UniqueIdentifier>
+      <Extensions>h;ic;icc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\COPYING">
+      <Filter>Documents</Filter>
+    </None>
+    <None Include="..\..\LICENSE.GPL">
+      <Filter>Documents</Filter>
+    </None>
+    <None Include="..\..\NEWS">
+      <Filter>Documents</Filter>
+    </None>
+    <None Include="..\..\README">
+      <Filter>Documents</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Inventor\Win\devices\SoWinDevice.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\devices\SoWinDeviceCommon.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\devices\SoWinInputFocus.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\devices\SoWinInputFocusCommon.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\devices\SoWinKeyboard.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\devices\SoWinKeyboardCommon.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\devices\SoWinMouse.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\devices\SoWinMouseCommon.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\devices\spwinput_win32.c">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\devices\spwinput_x11.cpp">
+      <Filter>Source Files\Win/devices sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\editors\SoWinColorEditor.cpp">
+      <Filter>Source Files\Win/editors sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\editors\SoWinMaterialEditor.cpp">
+      <Filter>Source Files\Win/editors sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\engines\Engines.cpp">
+      <Filter>Source Files\Win/engines sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\engines\Format.cpp">
+      <Filter>Source Files\Win/engines sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\engines\RadioGroup.cpp">
+      <Filter>Source Files\Win/engines sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\ClickCounter.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\ColorEditor.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Frame.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Image.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Label.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\MaterialEditor.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Nodes.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Pane.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Position.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\RadioButton.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\SceneTexture2.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Slider1.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Slider2.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\ToggleButton.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\Translation.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\ViewpointWrapper.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\nodes\ViewportFix.cpp">
+      <Filter>Source Files\Win/nodes sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\viewers\ExaminerViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\viewers\FullViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\viewers\PlaneViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\viewers\SoWinConstrainedViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\viewers\SoWinExaminerViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\viewers\SoWinFlyViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\viewers\SoWinFullViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\viewers\SoWinPlaneViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\viewers\SoWinViewer.cpp">
+      <Filter>Source Files\Win/viewers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\widgets\SoAnyThumbWheel.cpp">
+      <Filter>Source Files\Win/widgets sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\widgets\SoWinBitmapButton.cpp">
+      <Filter>Source Files\Win/widgets sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\widgets\SoWinPopupMenu.cpp">
+      <Filter>Source Files\Win/widgets sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\widgets\SoWinThumbWheel.cpp">
+      <Filter>Source Files\Win/widgets sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\widgets\WinNativePopupMenu.cpp">
+      <Filter>Source Files\Win/widgets sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\SoAny.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\SoWin.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\SoWinCommon.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\SoWinComponent.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\SoWinComponentCommon.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\SoWinCursor.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\SoWinGLWidget.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\SoWinGLWidgetCommon.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\SoWinObject.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventor\Win\SoWinRenderArea.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Inventor\Win\Win32API.cpp">
+      <Filter>Source Files\Inventor/Win sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Inventor\Win\devices\SoWinDevice.h">
+      <Filter>Public Headers\Inventor%255cWin%255cdevices headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\devices\SoWinInputFocus.h">
+      <Filter>Public Headers\Inventor%255cWin%255cdevices headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\devices\SoWinKeyboard.h">
+      <Filter>Public Headers\Inventor%255cWin%255cdevices headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\devices\SoWinMouse.h">
+      <Filter>Public Headers\Inventor%255cWin%255cdevices headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\editors\SoWinColorEditor.h">
+      <Filter>Public Headers\Inventor%255cWin%255ceditors headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\editors\SoWinMaterialEditor.h">
+      <Filter>Public Headers\Inventor%255cWin%255ceditors headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\nodes\SoGuiColorEditor.h">
+      <Filter>Public Headers\Inventor%255cWin%255cnodes headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\nodes\SoGuiMaterialEditor.h">
+      <Filter>Public Headers\Inventor%255cWin%255cnodes headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Inventor\Win\widgets\SoWinBitmapButton.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers%255c..%255cwidgets headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\viewers\SoWinConstrainedViewer.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\viewers\SoWinExaminerViewer.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\viewers\SoWinFlyViewer.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\viewers\SoWinFullViewer.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\viewers\SoWinPlaneViewer.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\viewers\SoWinViewer.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Inventor\Win\viewers\SoWinViewerResource.h">
+      <Filter>Public Headers\Inventor%255cWin%255cviewers headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\widgets\SoWinPopupMenu.h">
+      <Filter>Public Headers\Inventor%255cWin%255cwidgets headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWin.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinBasic.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Inventor\Win\SoWinBeginStrict.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinColorEditor.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinComponent.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinCursor.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Inventor\Win\SoWinDef.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Inventor\Win\SoWinEndStrict.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinGLWidget.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinMaterialEditor.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinObject.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventor\Win\SoWinRenderArea.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Inventor\Win\SoWinRes.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Inventor\Win\SoWinResource.h">
+      <Filter>Public Headers\Inventor%255cWin headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="src\Inventor\Win\SoGuiComponentP.h">
+      <Filter>Private Headers\Win local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\SoGuiGLWidgetP.h">
+      <Filter>Private Headers\Win local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\SoGuiP.h">
+      <Filter>Private Headers\Win local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\SoWinComponentP.h">
+      <Filter>Private Headers\Win local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\SoWinGLWidgetP.h">
+      <Filter>Private Headers\Win local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\Win32API.h">
+      <Filter>Private Headers\Win local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\devices\SoGuiDeviceP.h">
+      <Filter>Private Headers\devices local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\devices\SoGuiInputFocusP.h">
+      <Filter>Private Headers\devices local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\devices\SoGuiKeyboardP.h">
+      <Filter>Private Headers\devices local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\devices\SoGuiMouseP.h">
+      <Filter>Private Headers\devices local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\devices\SoWinDeviceP.h">
+      <Filter>Private Headers\devices local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\engines\SoGuiEngines.h">
+      <Filter>Private Headers\engines local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\engines\SoGuiFormat.h">
+      <Filter>Private Headers\engines local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\engines\SoGuiRadioGroup.h">
+      <Filter>Private Headers\engines local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiClickCounter.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiFrame.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiImage.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiLabel.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiNodes.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiPane.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiPosition.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiRadioButton.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiSceneTexture2.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiSlider1.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiSlider2.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiToggleButton.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiTranslation.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiViewpointWrapper.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\nodes\SoGuiViewportFix.h">
+      <Filter>Private Headers\nodes local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\viewers\SoGuiExaminerViewerP.h">
+      <Filter>Private Headers\viewers local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\viewers\SoGuiFullViewerP.h">
+      <Filter>Private Headers\viewers local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\viewers\SoGuiPlaneViewerP.h">
+      <Filter>Private Headers\viewers local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\Inventor\Win\viewers\SoGuiViewerP.h">
+      <Filter>Private Headers\viewers local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\viewers\SoWinExaminerViewerP.h">
+      <Filter>Private Headers\viewers local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\viewers\SoWinFullViewerP.h">
+      <Filter>Private Headers\viewers local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\viewers\SoWinPlaneViewerP.h">
+      <Filter>Private Headers\viewers local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\config-debug.h">
+      <Filter>Private Headers\src local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\config-release.h">
+      <Filter>Private Headers\src local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="src\sowindefs.h">
+      <Filter>Private Headers\src local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\widgets\SoWinThumbWheel.h">
+      <Filter>Private Headers\widgets local includes</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\src\Inventor\Win\widgets\WinNativePopupMenu.h">
+      <Filter>Private Headers\widgets local includes</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ClickCounter.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ClickCounter.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ColorEditor.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ColorEditor.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\engines\Engines.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\engines\Engines.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\engines\Format.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\engines\Format.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Frame.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Frame.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\gl.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Image.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Image.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Label.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Label.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\MaterialEditor.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\MaterialEditor.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Nodes.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Nodes.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Pane.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Pane.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Position.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Position.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\RadioButton.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\RadioButton.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\engines\RadioGroup.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\engines\RadioGroup.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\SceneTexture2.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\SceneTexture2.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Slider1.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Slider1.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Slider2.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Slider2.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoAny.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoAny.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\widgets\SoAnyThumbWheel.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\widgets\SoAnyThumbWheel.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGui.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\editors\SoGuiColorEditor.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\editors\SoGuiColorEditor.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiCommon.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiComponent.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiComponentCommon.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiComponentP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiConstrainedViewer.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiConstrainedViewer.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiCursor.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiCursor.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiDevice.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiDevice.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiDeviceP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiExaminerViewer.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiExaminerViewer.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiExaminerViewerP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiFlyViewer.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiFlyViewer.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiFullViewer.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiFullViewer.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiFullViewerP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiGLWidget.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiGLWidgetCommon.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiGLWidgetP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiInputFocus.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiInputFocus.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiInputFocusP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiKeyboard.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiKeyboard.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiKeyboardP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\editors\SoGuiMaterialEditor.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\editors\SoGuiMaterialEditor.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiMouse.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiMouse.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\devices\SoGuiMouseP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiObject.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiObject.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiPlaneViewer.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiPlaneViewer.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiPlaneViewerP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\widgets\SoGuiPopupMenu.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\widgets\SoGuiPopupMenu.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiRenderArea.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\SoGuiRenderArea.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiViewer.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiViewer.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\viewers\SoGuiViewerP.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\spwinput.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\spwinput_win32.c.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\spwinput_win32.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\spwinput_x11.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ToggleButton.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ToggleButton.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Translation.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\Translation.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ViewpointWrapper.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ViewpointWrapper.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ViewportFix.cpp.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\Inventor\Win\common\nodes\ViewportFix.h.in">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
