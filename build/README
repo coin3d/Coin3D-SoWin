@@ -1,0 +1,11 @@
+
+msvc6
+	Project files for building SoWin with Visual C++ 6.0.
+
+msvc7
+	Project files for building SoWin with Visual Studio 7.1.
+	(Visual Studio .Net 2003)
+
+msvc8
+	Project files for building SoWin with Visual Studio 8.0.
+

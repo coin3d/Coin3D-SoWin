@@ -1,0 +1,5 @@
+repo: cef71e8181166df5ffaeecbce5591cd8ed818078
+node: 52828f02ee8a116a9358243eebd5d46e4b323143
+branch: default
+latesttag: SoWin-1.5.0
+latesttagdistance: 1
