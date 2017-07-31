@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+    <ProjectGuid>{8F13A928-E2D2-0F23-2435-AD99CFA4F86F}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -62,8 +63,8 @@
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">.\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">.\Debug\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">..\misc\install-sdk.bat dll debug msvc8 sowin1</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">..\misc\install-sdk.bat dll debug msvc8 sowin1 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">..\misc\install-sdk.bat dll debug msvc10 sowin1</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">..\misc\install-sdk.bat dll debug msvc10 sowin1 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'" />
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">sowin1_install.exe</NMakeOutput>
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
@@ -73,8 +74,8 @@
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">.\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">.\Release\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">..\misc\install-sdk.bat dll release msvc8 sowin1</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">..\misc\install-sdk.bat dll release msvc8 sowin1 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">..\misc\install-sdk.bat dll release msvc10 sowin1</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">..\misc\install-sdk.bat dll release msvc10 sowin1 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'" />
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">sowin1_install.exe</NMakeOutput>
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
@@ -84,8 +85,8 @@
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">.\StaticRelease\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">.\StaticRelease\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">..\misc\install-sdk.bat lib release msvc8 sowin1</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">..\misc\install-sdk.bat lib release msvc8 sowin1 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">..\misc\install-sdk.bat lib release msvc10 sowin1</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">..\misc\install-sdk.bat lib release msvc10 sowin1 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'" />
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">sowin1_install.exe</NMakeOutput>
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
@@ -95,8 +96,8 @@
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">.\StaticDebug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">.\StaticDebug\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">..\misc\install-sdk.bat lib debug msvc8 sowin1</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">..\misc\install-sdk.bat lib debug msvc8 sowin1 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">..\misc\install-sdk.bat lib debug msvc10 sowin1</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">..\misc\install-sdk.bat lib debug msvc10 sowin1 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'" />
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">sowin1_install.exe</NMakeOutput>
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
@@ -114,7 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="sowin1.vcxproj">
-      <Project>{1e9942c8-d449-34e1-95fd-25026cbf3550}</Project>
+      <Project>{F31518C6-22E1-0E0E-B40F-A0DB68832FED}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
