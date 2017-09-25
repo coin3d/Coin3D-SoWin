@@ -117,6 +117,9 @@ public:
   static void lockGL(void);
   static void unlockGL(void);
 
+  static int haveIdleTasks(void);  // Added to support Magic Lantern.
+  static void doIdleTasks(void);   // Added to support Magic Lantern.
+
 private:
   // Since the class consists solely of static functions, hide the
   // default constructor and the destructor so nobody can instantiate

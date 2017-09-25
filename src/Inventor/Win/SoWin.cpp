@@ -780,3 +780,11 @@ SoGuiP::sensorQueueChanged(void * cbdata)
 }
 
 #endif // !DOXYGEN_SKIP_THIS
+
+// Added to support Magic Lantern MainLoop processing.
+int SoWin::haveIdleTasks(void)
+{ return (SoWinP::idleSensorId != 0); }
+
+// Added to support Magic Lantern MainLoop processing.
+void SoWin::doIdleTasks(void)
+{ SoWinP::doIdleTasks(); }

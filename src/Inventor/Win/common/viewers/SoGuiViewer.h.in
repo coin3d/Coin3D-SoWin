@@ -187,8 +187,11 @@ public:
 
   virtual void setDoubleBuffer(const SbBool enable);
 
-  virtual void setSceneGraph(SoNode * root);
-  virtual SoNode * getSceneGraph(void);
+  virtual void setSceneGraph(SoNode * root);  // Moved from protected to support Magic Lantern.
+  virtual SoNode * getSceneGraph(void);       // Moved from protected to support Magic Lantern.
+
+  virtual void setSeekMode(SbBool enable);
+  SbBool isSeekMode(void) const;
 
 protected:
   So@Gui@Viewer(@WIDGET@ parent,
@@ -199,8 +202,6 @@ protected:
   ~So@Gui@Viewer();
 
   virtual void sizeChanged(const SbVec2s & size);
-  virtual void setSeekMode(SbBool enable);
-  SbBool isSeekMode(void) const;
   SbBool seekToPoint(const SbVec2s screenpos);
   void seekToPoint(const SbVec3f & scenepos);
   virtual void computeSeekFinalOrientation(void);
